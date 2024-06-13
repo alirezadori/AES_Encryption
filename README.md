@@ -5,5 +5,5 @@ AESEncryptor.m is a function which use an uint8 data (for example an Image or te
 the output will be ciphered data AND a padnum. padnum is added becuse the AES encryption is a 16 bytes encryptor So if the data lengths is not divisible by 16 then we pad zeros at the end of data. the padnum indicates how many zeros attaced at the end of data and keys.
 
 for decryption we need keys, ciphered code and padnum 
-# for use this code you can open example.m and 
+# for use this code you can open example.m 
 this code is a # fast AES encryptor 
